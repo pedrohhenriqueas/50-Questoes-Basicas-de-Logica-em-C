@@ -1,3 +1,9 @@
+/*
+Questao 14:
+Faca um algoritmo que recebe um valor inteiro e mostra se o valor e zero, positivo
+ou negativo.
+*/
+
 #include <stdio.h>
 
 int main(){
@@ -9,13 +15,13 @@ int main(){
         printf("--------------------\n");
         
             if (valor > 0){
-                printf ("Seu valor é Positivo.");
+                printf ("Seu valor e Positivo.");
             }
             if (valor < 0){
-                printf ("Seu valor é Negativo.");
+                printf ("Seu valor e Negativo.");
             }
             if (valor == 0){
-                printf ("O valor é Zero. ");
+                printf ("O valor e Zero. ");
             }
     
     return 0;

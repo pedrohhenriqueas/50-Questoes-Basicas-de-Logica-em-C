@@ -1,3 +1,11 @@
+/*
+Questao 41:
+Escreva um programa que calcule as n primeiras potencias do numero k. Para n = 3 e k = 2 teremos:
+• 2 elevado a 1 = 2
+• 2 elevado a 2 = 4
+• 2 elevado a 3 = 8
+*/
+
 #include <stdio.h>
 
 int main()

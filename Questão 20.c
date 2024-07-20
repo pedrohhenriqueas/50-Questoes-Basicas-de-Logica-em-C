@@ -1,3 +1,9 @@
+/*
+Questao 20:
+Escrever um algoritmo que leia tres valores inteiros distintos e os escreva em ordem
+crescente
+*/
+
 #include <stdio.h>
 
 int main()
@@ -70,8 +76,8 @@ int main()
             }
         }
 
-        printf("O maior valor é: %d\n", maior);
-        printf("O valor do meio é: %d\n", meio);
-        printf("O menor valor é: %d\n", menor);
+        printf("O maior valor e: %d\n", maior);
+        printf("O valor do meio e: %d\n", meio);
+        printf("O menor valor e: %d\n", menor);
     return 0;
 }

@@ -1,16 +1,25 @@
+/*
+Questao 49:
+A prefeitura de uma cidade fez uma pesquisa entre seus habitantes, coletando dados sobre o salario e o numero de filhos. A prefeitura deseja saber:
+a) A media do salario da populacao;
+b) A media do numero de filhos;
+c) O maior salario;
+d) A porcentagem de pessoas com salarios ate R$1000,00.
+*/
+
 #include <stdio.h>
 
 int main()
 {
     int h, c=1, salario, filho, maior, mediasalario, mediafilho, totalfilho, totalsalario, porcentagem, p;
     
-    printf("Informe o número de habitantes da cidade: ");
+    printf("Informe o numero de habitantes da cidade: ");
     scanf ("%d", &h);
     for (h; c<=h; c++)
     {
-        printf("Informe o salário do habitante n° %d: ",c);
+        printf("Informe o salario do habitante n° %d: ",c);
         scanf ("%d", &salario);
-        printf("Informe o número de filhos do habitante: ");
+        printf("Informe o numero de filhos do habitante: ");
         scanf ("%d", &filho);
         totalfilho = filho + totalfilho;
         totalsalario = salario + totalsalario;
@@ -28,10 +37,10 @@ int main()
     mediasalario = totalsalario/h;
     mediafilho = totalfilho/h;
     printf("-----------------------------------------\n");
-    printf("Média do salário da população: %d\n", mediasalario);
-    printf("Média de filhos da população: %d\n", mediafilho);
-    printf("Maior salário: %d\n", maior);
-    printf("Porcentagem de pessoas com salários de até R$1000,00: %d\n porcento", porcentagem);
+    printf("Media do salario da populacao: %d\n", mediasalario);
+    printf("Media de filhos da populacao: %d\n", mediafilho);
+    printf("Maior salario: %d\n", maior);
+    printf("Porcentagem de pessoas com salarios de ate R$1000,00: %d\n porcento", porcentagem);
     return 0;
 }
 

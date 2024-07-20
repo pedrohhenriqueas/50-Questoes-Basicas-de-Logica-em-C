@@ -1,3 +1,8 @@
+/*
+Questao 34:
+Ler 10 valores, um de cada vez, e contar quantos deles estao no intervalo [10.. 50] e quantos deles est ̃ao fora deste intervalo. Mostrar as quantidades calculadas.
+*/
+
 #include <stdio.h>
 
 int main()
@@ -18,7 +23,7 @@ int main()
     c = c + 1;
     }
     printf("---------------------------------------------------------\n");
-    printf("Quantidade de números dentro do intervalo de 10 e 50: %d\n", dentro);
-    printf("Quantidade de números fora do intervalo de 10 e 50: %d", fora);
+    printf("Quantidade de numeros dentro do intervalo de 10 e 50: %d\n", dentro);
+    printf("Quantidade de numeros fora do intervalo de 10 e 50: %d", fora);
     return 0;
 }

@@ -1,3 +1,9 @@
+/*
+Questao 3:
+Fazer um algoritmo que obtenha dois numeros inteiros, x e y, mostre o quociente e
+o resto da divisao inteira entre eles.
+*/
+
 #include <stdio.h>
 
 int main(){
@@ -9,8 +15,8 @@ int main(){
         scanf ("%d", &y);
             resto = x % y;
             quociente = x / y;
-        printf("O quociente da divisão entre %d e %d é: %d\n", x, y, quociente);
-        printf("O resto da divisão entre %d e %d é: %d", x, y, resto);
+        printf("O quociente da divisao entre %d e %d: %d\n", x, y, quociente);
+        printf("O resto da divisao entre %d e %d: %d", x, y, resto);
 
 
     return 0;

@@ -1,3 +1,10 @@
+/*
+Questao 42:
+Escreva um algoritmo que leia os valores das variaveis X e A e calcule o valor de S dado por:
+
+S = (1/A * 20/X) + (2/A-1 * 19/X2) + (3/A-2 * 18/X3) + ... + (20/A-19 * 1/X20)
+*/
+
 #include <stdio.h>
 #include <math.h>
 

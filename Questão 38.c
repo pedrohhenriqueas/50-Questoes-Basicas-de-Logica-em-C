@@ -1,3 +1,11 @@
+/*
+Questao 38:
+Faca um algoritmo que leia um valor x, calcule e mostre os 20 primeiros termos
+da serie:
+
+S = 1/x-1 + 1/x-2 + 1/x-3 + ...
+*/
+
 #include <stdio.h>
 
 int main()

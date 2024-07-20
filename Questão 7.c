@@ -1,3 +1,8 @@
+/*
+Questao 7:
+Fazer um algoritmo que calcule e mostre a area e o volume de um cilindro. (A = 2πr(h + r), V = πr2h)
+*/
+
 #include <stdio.h>
 
 int main(){
@@ -11,7 +16,7 @@ int main(){
             area = 2 * 3.14 * raio * (raio + altura);
         
         printf("Volume do cilindro: %d\n", volume);
-        printf("Área do cilindro: %d", area);
+        printf("Area do cilindro: %d", area);
 
     return 0;
 }

@@ -1,3 +1,8 @@
+/*
+Questao 26:
+Fazer um algoritmo que calcule e mostre a tabuada do 7.
+*/
+
 #include <stdio.h>
 
 int main()

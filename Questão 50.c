@@ -1,3 +1,12 @@
+/*
+Questao 50:
+Tem-se um conjunto de dados contendo a altura e o sexo (M ou F) de 15 pessoas.
+Faca um programa que calcule e mostre:
+a) a maior e a menor altura do grupo;
+b) a media de altura das mulheres;
+c) o numero de homens.
+*/
+
 #include <stdio.h>
 
 int main()
@@ -39,7 +48,7 @@ int main()
     media = hmulheres/mulheres;
     printf("-----------------------------------\n");
     printf("Maior e a menor altura do grupo: %.2f e %.2f\n", maior, menor);
-    printf("Média da altura das mulheres: %.2f\n", media);
-    printf("Número de homens: %d\n", homens);
+    printf("Media da altura das mulheres: %.2f\n", media);
+    printf("Numero de homens: %d\n", homens);
     return 0;
 }

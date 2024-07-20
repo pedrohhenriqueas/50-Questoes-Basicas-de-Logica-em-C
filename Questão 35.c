@@ -1,3 +1,9 @@
+/*
+Questao 35:
+Construa um algoritmo que calcule e mostre o valor de H, sendo H calculado por:
+
+H = 1 + 2 + 3 + 4 + ... + N
+*/
 
 #include <stdio.h>
 

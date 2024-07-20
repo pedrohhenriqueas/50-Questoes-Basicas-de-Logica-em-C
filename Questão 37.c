@@ -1,3 +1,10 @@
+/*
+Questao 37:
+Calcular o valor de S dado pela sequencia:
+
+S = 1 + 3/2 + 5/3 + 7/4 + ... + 90/50
+*/
+
 #include <stdio.h>
 
 int main()
@@ -11,7 +18,7 @@ int main()
         soma=(float)dividendo/divisor;
         s = soma + s;
     }
-    printf("O valor de S é: %.2f", s);
+    printf("O valor de S e: %.2f", s);
     
     return 0;
 }

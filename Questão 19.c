@@ -1,3 +1,9 @@
+/*
+Questao 19:
+Escreva um algoritmo que recebe tres valores inteiros e mostre o valor do maior
+numero digitado pelo usuario.
+*/
+
 #include <stdio.h>
 
 int main()
@@ -33,7 +39,7 @@ int main()
             }
         }
         
-        printf("O valor maior é: %d", maior);
+        printf("O valor maior e: %d", maior);
 
     return 0;
 }

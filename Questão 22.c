@@ -1,3 +1,10 @@
+/*
+Questao 22:
+ Escreva um algoritmo para ler 2 valores inteiros e uma das seguintes operacoes a
+serem executadas: 1. Adicao, 2. Subtracao, 3. Divisao e 4. Multiplicacao. Calcular e mostrar o
+resultado da operacao.
+*/
+
 #include <stdio.h>
 
 int  main ()
@@ -9,7 +16,7 @@ int  main ()
           printf ("Digite o segundo valor: ");
           scanf ("%d", &v2);
           printf ("--------------------------------------------------\n");
-          printf ("Digite o número da funç que você deseja realizar\n");
+          printf ("Digite o numero da funçao que você deseja realizar\n");
           printf ("--------------------------------------------------\n");
           printf ("1- Para somar\n");
           printf ("2- Para multiplicar\n");
@@ -30,15 +37,15 @@ int  main ()
             }
           if (funcao == 2)
             {
-              printf ("Multiplicação: %d\n", multiplicacao);
+              printf ("Multiplicacao: %d\n", multiplicacao);
             }
           if (funcao == 3)
             {
-              printf ("Subtração: %d\n", subtracao);
+              printf ("Subtracao: %d\n", subtracao);
             }
           if (funcao == 4)
             {
-              printf ("Divisão: %d\n", divisao);
+              printf ("Divisao: %d\n", divisao);
             }
 
   return 0;

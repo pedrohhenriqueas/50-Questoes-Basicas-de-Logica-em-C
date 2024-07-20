@@ -1,14 +1,20 @@
+/*
+Questao 25:
+Faca um algoritmo que mostre os numeros pares compreendidos entre 14 e 30
+(inclusive).
+*/
+
 #include <stdio.h>
 
 int main()
 {
-    int c = 16;
+    int c = 14;
     
-    while(c < 30)
+    while(c <= 30)
     {
         if(c%2==0)
         {
-            printf("Seu número %d é par e entre 14 e 30\n", c);
+            printf("O numero %d e par e esta entre 14 e 30\n", c);
         }
          c = c + 1;
     }

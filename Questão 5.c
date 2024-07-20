@@ -1,3 +1,8 @@
+/*
+Questao 5:
+Fazer um algoritmo que converta centimetros para polegadas (obs.: 1pol = 2.54cm)
+*/
+
 #include <stdio.h>
 
 int main(){

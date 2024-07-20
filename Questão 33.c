@@ -1,3 +1,9 @@
+/*
+Questao 33:
+Calcular e mostrar a media aritḿetica dos numeros pares compreendidos entre 13
+e 73.
+*/
+
 #include <stdio.h>
 
 int main()
@@ -14,7 +20,7 @@ int main()
     }
     media = soma / n;
     printf("Soma Final: %d\n", soma);
-    printf("Média Aritmética: %d", media);
+    printf("Media Aritmetica: %d", media);
     
     return 0;
 }

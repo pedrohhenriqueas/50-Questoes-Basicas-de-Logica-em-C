@@ -1,3 +1,9 @@
+/*
+Questao 16:
+Faca um algoritmo que recebe um valor inteiro, caso esse nuumero seja positivo,
+mostre o valor digitado, caso seja negativo mostre o valor digitado com o sinal invertido
+*/
+
 #include <stdio.h>
 
 int main(){
@@ -8,12 +14,12 @@ int main(){
         printf("--------------------\n");
             if (valor > 0)
         {
-            printf ("Seu valor já é positivo: %d", valor);
+            printf ("Seu valor ja e positivo: %d", valor);
         }
         else 
         {
             (valor = valor * -1);
-            printf ("Seu valor é negativo, e positivo ele será: %d", valor);
+            printf ("Seu valor e negativo, e positivo ele sera: %d", valor);
         }
         
 

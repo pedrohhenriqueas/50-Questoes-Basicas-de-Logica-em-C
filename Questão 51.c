@@ -1,3 +1,13 @@
+/*
+Questao 51
+Uma determinada empresa fez uma pesquisa de mercado para saber se as pessoas gostaram ou n ̃ao de um novo produto lanccado no mercado. Para isso forneceu o sexo do entrevistado (M - masculino, F - feminino) e a sua resposta (S - sim, N - n ̃ao). Sabendo-se que foram entrevistadas 20 pessoas, fazer um programa que calcule e escreva:
+
+a) o numero de pessoas que responderam sim,
+b) o numero de pessoas que responderam nao,
+c) a porcentagem de pessoas do sexo feminino que responderam sim,
+d) a porcentagem de pessoas do sexo masculino que responderam nao
+*/
+
 #include <stdio.h>
 
 int main()
@@ -38,10 +48,10 @@ int main()
     p1 = (float)(fs*100)/f;
     p2 = (float)(mn*100)/m;
     
-    printf("Número de pessoas que responderam SIM: %d\n", sim);
-    printf("Número de pessoas que responderam NÃO: %d\n", nao);
+    printf("Numero de pessoas que responderam SIM: %d\n", sim);
+    printf("Numero de pessoas que responderam NÃO: %d\n", nao);
     printf("Porcentagem de MULHERES que disseram SIM: %.0f porcento\n", p1);
-    printf("Porcentagem se HOMENS que disseram NÃO: %.0f porcento", p2);
+    printf("Porcentagem se HOMENS que disseram NAO: %.0f porcento", p2);
     return 0;
 }
 

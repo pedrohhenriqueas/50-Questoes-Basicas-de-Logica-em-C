@@ -1,3 +1,11 @@
+/*
+Questao 11:
+Faca um algoritmo que auxiliar  ́a um funcionario de um caixa de supermercado. O
+algoritmo devera receber como entrada o valor da compra do cliente e o valor pago pelo cliente,
+em seguida o algoritmo devera apresentar o troco da compra, de forma que o mesmo deve
+apresentar a quantidade de cedulas e moedas para compor o troco do cliente
+*/
+
 #include <stdio.h>
 
 int main(){
@@ -12,7 +20,7 @@ int main(){
             troco = valor_pago - valor_compra;
     
         printf("--------------------------\n");
-        printf("SEU TROCO É DE: %d REAIS\n", troco);
+        printf("SEU TROCO E DE: %d REAIS\n", troco);
         printf("--------------------------\n");
     
     
@@ -56,13 +64,13 @@ int main(){
         if (resto >= 1);
         {n1 = resto;}
         
-            printf("CÉDULAS DE 100: %d\n", n100);
-            printf("CÉDULAS DE 50: %d\n", n50);
-            printf("CÉDULAS DE 20: %d\n", n20);
-            printf("CÉDULAS DE 10: %d\n", n10);
-            printf("CÉDULAS DE 5: %d\n", n5);
-            printf("CÉDULAS DE 2: %d\n", n2);
-            printf("CÉDULAS DE 1: %d\n", n1);
+            printf("CEDULAS DE 100: %d\n", n100);
+            printf("CEDULAS DE 50: %d\n", n50);
+            printf("CEDULAS DE 20: %d\n", n20);
+            printf("CEDULAS DE 10: %d\n", n10);
+            printf("CEDULAS DE 5: %d\n", n5);
+            printf("CEDULAS DE 2: %d\n", n2);
+            printf("CEDULAS DE 1: %d\n", n1);
 
 
     return 0;

@@ -1,3 +1,8 @@
+/*
+Questao 30:
+Escreva um algoritmo que leia a idade de 10 pessoas, calcule e mostre a quantidade de pessoas maiores de idade
+*/
+
 #include <stdio.h>
 
 int main()

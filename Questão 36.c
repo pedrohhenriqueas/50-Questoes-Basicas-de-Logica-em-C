@@ -1,3 +1,9 @@
+/*
+Questao 36:
+Calcular o valor de S dado pela sequencia:
+S = 1 + 1/2 + 1/3 + 1/4 + ... + 1/10 
+*/
+
 #include <stdio.h>
 
 int main()
@@ -10,6 +16,6 @@ int main()
         soma=(1.0/c);
         s = soma + s;
     }
-    printf("O valor de S é: %.2f", s);
+    printf("O valor de S e: %.2f", s);
     return 0;
 }
